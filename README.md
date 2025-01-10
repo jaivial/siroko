@@ -18,21 +18,22 @@ cd siroko
 ---
 
 ## **Cómo Ejecutar la Aplicación**
-Opción 1. Mediante VSCode Live Server Extension:
+**Opción 1. Mediante VSCode Live Server Extension:**
 Si utilizas VSCode, puedes instalar la extensión Live Server:
-  1- Abre la carpeta del proyecto en VSCode:
+
+  1. Abre la carpeta del proyecto en VSCode:
   ```bash
   code .
   ```
-  2- Haz click derecho sobre index.html y selecciona "Open with Live Server".
+  2. Haz click derecho sobre index.html y selecciona "Open with Live Server".
 
-Opción 2. Usar un Navegador Localmente:
+**Opción 2. Usar un Navegador Localmente:**
 También puedes abrir directamente el archivo index.html en tu navegador:
 
-  1- Ve a la carpeta del proyecto.
-  2- Haz doble click en index.html para abrir la aplicación en tu navegador.
+  1. Ve a la carpeta del proyecto.
+  2. Haz doble click en index.html para abrir la aplicación en tu navegador.
 
-Opción 3. Abrir la url de vercel:  
+**Opción 3. Abrir la url de vercel:**
 
 
 ---
@@ -49,12 +50,10 @@ Opción 3. Abrir la url de vercel:
    - Si la cuenta regresiva finaliza, se mostrará un mensaje para reiniciar el formulario.
    - Durante la vigencia del código se permitirá la copia al portapapeles haciendo click en el botón copiar.
      
-![Reproductor de víde](public/tutorial2.jpg)
 
 3. Reiniciar el Formulario:
    - Al hacer click en el enlace "Reiniciar", la página se recargará para comenzar de nuevo.
      
-![Dar Like a un vídeo](public/tutorial3.jpg)
 
 ---
 
@@ -62,20 +61,21 @@ Opción 3. Abrir la url de vercel:
 🔹 Pantalla de Inicio del Formulario
 Formulario inicial para seleccionar el año y completar los campos necesarios.
 
-![Formulario incial](public/tutorial1.jpg)
+![Formulario incial](public/tutorial1.png)
+![Formulario secundario](public/tutorial2.png)
 
 ---
 
 🔹 Pantalla de Código Generado
 Pantalla que muestra el código de descuento generado y el temporizador de cuenta atrás.
 
-![Formulario incial](public/tutorial1.jpg)
+![Código generado](public/tutorial3.png)
 
 ---
 
 🔹 Pantalla de Alerta de Tiempo Expirado
 Cuando el temporizador llega a cero, se muestra una alerta indicando que el tiempo ha caducado.
 
-![Formulario incial](public/tutorial1.jpg)
+![Código expirado](public/tutorial4.png)
 
 ---
