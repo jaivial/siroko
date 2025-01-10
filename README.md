@@ -1,6 +1,8 @@
 ## **Prueba técnia SIROKO**
 Prueba técnica para Siroko. Generador de códigos de descuento a partir de un formulario desarrollado con HTML, CSS y JavaScript Vanilla.
 
+👉 [Visita Siroko](https://siroko.vercel.app)
+
 ## **ÍNDICE**
 - [Instrucciones de Configuración](#instrucciones-de-configuración)
 - [Cómo Ejecutar la Aplicación](#cómo-ejecutar-la-aplicación)
@@ -34,6 +36,7 @@ También puedes abrir directamente el archivo index.html en tu navegador:
   2. Haz doble click en index.html para abrir la aplicación en tu navegador.
 
 **Opción 3. Abrir la url de vercel:**
+
 [Visita Siroko](https://siroko.vercel.app)
 
 
