@@ -34,7 +34,7 @@ main {
     padding: 25px;
     display: flex;
     flex-direction: column;
-    background-image: url('/public/assets/mainbg.jpeg');
+    background-image: url('./assets/mainbg.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
