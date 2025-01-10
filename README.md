@@ -34,6 +34,8 @@ También puedes abrir directamente el archivo index.html en tu navegador:
   2. Haz doble click en index.html para abrir la aplicación en tu navegador.
 
 **Opción 3. Abrir la url de vercel:**
+[Visita Siroko](https://siroko.vercel.app)
+
 
 
 ---
