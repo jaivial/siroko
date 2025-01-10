@@ -1,0 +1,319 @@
+/* Load Liberator Font - Heavy */
+@font-face {
+    font-family: 'Liberator';
+    src: url('/public/fonts/Liberator_TTF/Liberator-Heavy.ttf') format('truetype');
+    font-weight: 800;
+}
+
+/* Load Liberator Font - Medium */
+@font-face {
+    font-family: 'Liberator';
+    src: url('/Liberator_TTF/Liberator-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+/* Load Liberator Font - Light */
+@font-face {
+    font-family: 'Liberator';
+    src: url('/Liberator_TTF/Liberator-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+/* Main Section Styles */
+main {
+    text-align: center;
+    background-color: #000;
+    overflow-x: hidden;
+    gap: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/public/assets/mainbg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Hero Section */
+.herosection {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    width: 100%;
+    height: fit-content;
+    gap: 15px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headerpill {
+    width: fit-content;
+    border-radius: 3px;
+    padding: 3px 7px;
+    background-color: #5DC2BD;
+    font: 'Inter', serif;
+    font-size: 9px;
+    line-height: 10.89px;
+    font-weight: 700;
+    color: #2C5E5B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+header h3 {
+    font-family: 'Liberator', 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 35px;
+    margin: 0px;
+}
+
+header p {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.72px;
+    text-align: start;
+    margin: 0px;
+}
+
+
+/* Form */
+
+.formsection {
+    width: 100%;
+}
+
+form {
+    background-color: #311429;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    height: fit-content;
+    max-width: 800px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form p {
+    font-size: 12px;
+    line-height: 16.44px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-align: start;
+    color: #EFE5C3;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    background-color: #339B95;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    gap: 10px;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #2a8b8b;
+}
+
+.option {
+    background-color: #3a263f;
+    color: #fff;
+    font-size: 15px;
+    line-height: 17.55px;
+    font-weight: 400;
+    padding: 12px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Inconsolata', monospace;
+}
+
+.option:hover {
+    background-color: #d63e5b;
+}
+
+.material-symbols-outlined {
+    font-size: 20px;
+}
+
+.checked {
+    color: #fff;
+    background-color: #d63e5b;
+}
+
+.discountcodediv {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    border-radius: 2px;
+    padding: 10px;
+    background: linear-gradient(90deg, #BDBDBD, #FFFFFF);
+}
+
+.discountcodediv p {
+    font-size: 25px;
+    line-height: 29.25px;
+    font-family: 'Inconsolata', monospace;
+    color: #000;
+}
+
+.copybutton {
+    color: #000;
+    border: #000 2px solid;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.38px;
+    width: fit-content;
+    padding: 6px 8px;
+}
+
+.copybutton:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    transition: ease-in-out 0.5s;
+}
+
+#newtext {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.72px;
+    color: #fff;
+    text-transform: none;
+
+}
+
+#countdowndiv {
+    padding: 10px 15px;
+    background-color: #2C0C23;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#countdown,
+#spancountdown {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31.59px;
+    color: #fff !important;
+}
+
+#resettext,
+#expiredtext {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.72px;
+    color: #fff;
+    margin: auto 0px;
+    text-transform: none;
+}
+
+#resettext {
+    text-decoration: underline;
+}
+
+#resettext:hover {
+    cursor: pointer;
+}
+
+.timeout {
+    background-color: #C51414 !important;
+}
+
+
+/* Footer Section */
+footer {
+    text-align: start;
+    padding: 25px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    bottom: 0;
+    max-width: 100%;
+}
+
+.footertextwrapper {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0px auto;
+    gap: 10px;
+}
+
+footer p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;
+    line-height: 16.38px;
+    font-weight: 400;
+    color: #BBBBBB;
+    width: fit-content;
+    text-align: start;
+    margin: 0px;
+}
+
+.footerspan {
+    color: #fff;
+    text-decoration: underline;
+}
