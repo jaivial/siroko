@@ -7,7 +7,7 @@ headerpilltext.innerText = 'paso 1 de 2';
 const headerp = document.getElementById('headerp');
 headerp.innerText = 'Has llegado hasta el test de Siroko. Responde las siguientes preguntas y genera tu código premiado a medida.';
 const headertitle = document.getElementById('headertitle');
-headertitle.innerText = '!vamos alla!';
+headertitle.innerText = '¡vamos allá!';
 
 // Form elements
 const formbutton = document.getElementById('formbutton');
@@ -88,7 +88,7 @@ formbutton.addEventListener('click', () => {
         console.log(currentStep);
         // Change header and form text for step 2
         headerpilltext.innerText = 'paso 2 de 2';
-        headertitle.innerText = 'vamos, una mas';
+        headertitle.innerText = 'vamos, una más';
         headerp.style.display = 'none';
         formText.innerText = 'por unas gafas siroko, yo...';
 
